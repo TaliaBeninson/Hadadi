@@ -1,0 +1,82 @@
+name: hadadi
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.8.0
+  intl: ^0.19.0
+  flutter_countdown_timer: ^4.1.0
+  http: ^1.2.2
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.6.0
+  slide_to_confirm: ^1.1.0
+  flutter_shake_animated: ^0.0.5
+  shared_preferences: ^2.3.3
+  firebase_core: ^3.4.0
+  cloud_firestore: ^5.4.0
+  flutter_translate: ^3.1.0
+  firebase_auth: ^5.3.3
+  firebase_messaging: ^15.1.5
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.1
+  firebase_storage: ^12.3.6
+  provider: ^6.1.2
+  percent_indicator: ^4.2.4
+  timer_count_down: ^2.2.2
+  share_plus: ^10.1.2
+  syncfusion_flutter_charts: ^27.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_icon.png"
+  adaptive_icon_foreground: "assets/logo_icon.png"
+  adaptive_icon_background: "#ffffff"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo_icon.png
+    - assets/logo.png
+    - assets/i18n/
+    - assets/flags/
+    - assets/bottom_nav/
+    - assets/TopDesign.jpg
+    - assets/city_street_data.json
+    - assets/icon1.png
+    - assets/icon2.png
+    - assets/icon3.png
+    - assets/icon4.png
+    - assets/robot.png
+    - assets/handshake.png
+    - assets/turbo.png
+    - assets/service-account-file.json
+    - assets/electronics_icon.png
+    - assets/fight_icon.png
+    - assets/house_icon.png
+    - assets/car_icon.png
+    - assets/card_icon.png
+    - assets/light_icon.png
+    - assets/calendar.png
+    - assets/check.png
+    - assets/drawer/
+    - assets/supplier/
+    - assets/logo_placeholder.png
